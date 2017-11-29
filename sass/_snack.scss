@@ -1,0 +1,59 @@
+    #snackbar{
+      visibility: hidden;
+      min-width: 250px;
+      width: 460px;
+      margin-left: -125px;
+      background-color: #fff;
+      color: #8b8b8b;
+      line-height: 23px;
+      text-align: center;
+      border-radius: 2px;
+      position: fixed;
+      z-index: 1;
+      left: 50%;
+      bottom: 30px;
+      text-align: left;
+      padding: 25px 100px 25px 25px;
+      -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+      box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    }
+    #snackbar .close_snack{
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 20px;
+      cursor: pointer;
+      font-weight: 100;
+    }
+    #snackbar .learn_more{
+      margin-top: 25px;
+      display: inline-block;
+      font-size: 18px;
+      color: #fff;
+      background-color: #999999;
+      padding: 5px 15px;
+      font-weight: 100; 
+    }
+    #snackbar.show{
+      visibility: visible;
+      -webkit-animation: fadein .5s;
+      animation: fadein .5s;
+    }
+    @-webkit-keyframes fadein{
+      from{bottom: 0; opacity: 0;}
+      to{bottom: 30px; opacity: 1;}
+    }
+    @keyframes fadein{
+      from{bottom: 0; opacity: 0;}
+      to{bottom: 30px; opacity: 1;}
+    }
+    @media(min-width: 320px) and (max-width: 767px){
+      #snackbar{
+        width: 300px;
+        margin-left: 0;
+        left: 1%;
+        font-size: 16px;
+        padding: 10px;
+      }
+    }
