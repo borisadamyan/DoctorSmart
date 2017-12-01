@@ -1826,6 +1826,7 @@ body{
 		p{
 			font-size: 18px;
 			line-height: 22px;
+			margin-left: 0;
 		}
 		.box{
 			.desc{
@@ -1833,6 +1834,9 @@ body{
 					font-size: 15px;
     			line-height: 19px;
 				}
+			}
+			.round{
+				left: 0;
 			}
 		}
 		.box3{
@@ -1842,8 +1846,8 @@ body{
     padding-bottom: 192px;
 		}
 		.box5{
-			padding-top: 73px;
-			padding-bottom: 184px;
+			padding-top: 65px;
+    	padding-bottom: 192px;
 		}
 	}
 	.welcome{
@@ -1862,7 +1866,7 @@ body{
 			.send{
 				padding: 10px 45px;
    			font-size: 24px;
-   			bottom: 0px;
+   			bottom: -50px;
     		right: 58px;
 			}
 		}
@@ -4397,6 +4401,21 @@ body{
 	.head{
 		.scroll_hidden{
 			display: none;
+		}
+		nav{
+			.mob_burger{
+				position: fixed;
+			}
+		}
+		.mob-nav{
+			position: fixed;
+			top: 0;
+			-webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+			box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+		}
+		.logo{
+			margin-top: 0;
 		}
 	}
 }

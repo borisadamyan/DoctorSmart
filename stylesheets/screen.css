@@ -2491,146 +2491,151 @@ body .docSmart {
   .edviser p {
     font-size: 18px;
     line-height: 22px;
+    margin-left: 0;
   }
-  /* line 1832, ../sass/screen.scss */
+  /* line 1833, ../sass/screen.scss */
   .edviser .box .desc span {
     font-size: 15px;
     line-height: 19px;
   }
   /* line 1838, ../sass/screen.scss */
+  .edviser .box .round {
+    left: 0;
+  }
+  /* line 1842, ../sass/screen.scss */
   .edviser .box3 {
     padding-bottom: 192px;
   }
-  /* line 1841, ../sass/screen.scss */
+  /* line 1845, ../sass/screen.scss */
   .edviser .box4 {
     padding-bottom: 192px;
   }
-  /* line 1844, ../sass/screen.scss */
+  /* line 1848, ../sass/screen.scss */
   .edviser .box5 {
-    padding-top: 73px;
-    padding-bottom: 184px;
+    padding-top: 65px;
+    padding-bottom: 192px;
   }
 
-  /* line 1850, ../sass/screen.scss */
+  /* line 1854, ../sass/screen.scss */
   .welcome h4 {
     font-size: 19px;
     padding-top: 35px;
     padding-bottom: 25px;
   }
-  /* line 1855, ../sass/screen.scss */
+  /* line 1859, ../sass/screen.scss */
   .welcome p {
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 20px;
   }
-  /* line 1860, ../sass/screen.scss */
+  /* line 1864, ../sass/screen.scss */
   .welcome .right-box {
     margin-top: 68px;
   }
-  /* line 1862, ../sass/screen.scss */
+  /* line 1866, ../sass/screen.scss */
   .welcome .right-box .send {
     padding: 10px 45px;
     font-size: 24px;
-    bottom: 0px;
+    bottom: -50px;
     right: 58px;
   }
 
-  /* line 1871, ../sass/screen.scss */
+  /* line 1875, ../sass/screen.scss */
   .footer h4 {
     padding-bottom: 45px;
     font-size: 30px;
   }
-  /* line 1875, ../sass/screen.scss */
+  /* line 1879, ../sass/screen.scss */
   .footer span {
     font-size: 17px;
   }
-  /* line 1878, ../sass/screen.scss */
+  /* line 1882, ../sass/screen.scss */
   .footer img {
     width: 50px;
     height: 50px;
   }
-  /* line 1883, ../sass/screen.scss */
+  /* line 1887, ../sass/screen.scss */
   .footer .contacts li {
     margin-right: 20px;
   }
-  /* line 1888, ../sass/screen.scss */
+  /* line 1892, ../sass/screen.scss */
   .footer .social_icons li {
     margin-right: 20px;
   }
 }
 @media (min-width: 412px) and (max-width: 767px) {
-  /* line 2248, ../sass/screen.scss */
+  /* line 2252, ../sass/screen.scss */
   .mfp-close-btn-in .mfp-close {
     top: 0px;
     right: 5px;
   }
 
-  /* line 2252, ../sass/screen.scss */
+  /* line 2256, ../sass/screen.scss */
   #form1 {
     max-width: 300px;
     padding: 15px;
   }
-  /* line 2255, ../sass/screen.scss */
+  /* line 2259, ../sass/screen.scss */
   #form1 h3 {
     font-size: 22px;
     color: #73d0d5;
     padding-top: 20px;
     padding-bottom: 30px;
   }
-  /* line 2261, ../sass/screen.scss */
+  /* line 2265, ../sass/screen.scss */
   #form1 input {
     margin-bottom: 20px;
     padding: 5px 15px;
     font-size: 18px;
   }
-  /* line 2266, ../sass/screen.scss */
+  /* line 2270, ../sass/screen.scss */
   #form1 textarea {
     height: 90px;
     font-size: 20px;
   }
-  /* line 2270, ../sass/screen.scss */
+  /* line 2274, ../sass/screen.scss */
   #form1 .send_massage_btn {
     font-size: 20px;
     padding: 10px 30px;
     margin-bottom: 20px;
   }
 
-  /* line 2277, ../sass/screen.scss */
+  /* line 2281, ../sass/screen.scss */
   .head .overlay {
     background-position: -1040px 230px;
   }
-  /* line 2280, ../sass/screen.scss */
+  /* line 2284, ../sass/screen.scss */
   .head nav {
     margin-top: 15px;
   }
-  /* line 2282, ../sass/screen.scss */
+  /* line 2286, ../sass/screen.scss */
   .head nav .menu {
     display: none;
   }
-  /* line 2285, ../sass/screen.scss */
+  /* line 2289, ../sass/screen.scss */
   .head nav .lang {
     display: none;
   }
-  /* line 2288, ../sass/screen.scss */
+  /* line 2292, ../sass/screen.scss */
   .head nav .mob_burger {
     z-index: 99999999;
   }
-  /* line 2292, ../sass/screen.scss */
+  /* line 2296, ../sass/screen.scss */
   .head .logo {
     width: 170px;
     height: 90px;
     margin: 0 auto;
     margin-top: -50px;
   }
-  /* line 2297, ../sass/screen.scss */
+  /* line 2301, ../sass/screen.scss */
   .head .logo img {
     width: 100%;
   }
-  /* line 2301, ../sass/screen.scss */
+  /* line 2305, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 300px;
   }
-  /* line 2303, ../sass/screen.scss */
+  /* line 2307, ../sass/screen.scss */
   .head .mid-row p {
     font-size: 17px;
     line-height: 19px;
@@ -2639,7 +2644,7 @@ body .docSmart {
     left: -10px;
     font-weight: 300;
   }
-  /* line 2310, ../sass/screen.scss */
+  /* line 2314, ../sass/screen.scss */
   .head .mid-row p span {
     font-weight: 400;
     letter-spacing: 0.3px;
@@ -2648,15 +2653,15 @@ body .docSmart {
     letter-spacing: .5px;
     display: inline-block;
   }
-  /* line 2318, ../sass/screen.scss */
+  /* line 2322, ../sass/screen.scss */
   .head .mid-row p .bottom_span {
     width: 140px;
   }
-  /* line 2323, ../sass/screen.scss */
+  /* line 2327, ../sass/screen.scss */
   .head .mid-row-eng {
     padding-bottom: 400px;
   }
-  /* line 2327, ../sass/screen.scss */
+  /* line 2331, ../sass/screen.scss */
   .head .mob-nav .close-menu {
     position: absolute;
     top: 0px;
@@ -2664,13 +2669,13 @@ body .docSmart {
     font-size: 23px;
   }
 
-  /* line 2335, ../sass/screen.scss */
+  /* line 2339, ../sass/screen.scss */
   .obzor {
     font-family: 'PF DinDisplay Pro';
     display: flex;
     flex-direction: column-reverse;
   }
-  /* line 2339, ../sass/screen.scss */
+  /* line 2343, ../sass/screen.scss */
   .obzor h4 {
     position: unset;
     text-align: center;
@@ -2680,7 +2685,7 @@ body .docSmart {
     padding-top: 30px;
     letter-spacing: 0.7px;
   }
-  /* line 2348, ../sass/screen.scss */
+  /* line 2352, ../sass/screen.scss */
   .obzor p {
     font-family: 'PF DinDisplay Pro';
     position: unset;
@@ -2690,48 +2695,48 @@ body .docSmart {
     line-height: 21px;
     letter-spacing: 0.6px;
   }
-  /* line 2357, ../sass/screen.scss */
+  /* line 2361, ../sass/screen.scss */
   .obzor span {
     font-size: 14px;
   }
-  /* line 2360, ../sass/screen.scss */
+  /* line 2364, ../sass/screen.scss */
   .obzor .grandview {
     padding-top: 0px;
   }
-  /* line 2363, ../sass/screen.scss */
+  /* line 2367, ../sass/screen.scss */
   .obzor .ist-world-bank {
     font-size: 16px;
     right: 10px;
   }
-  /* line 2367, ../sass/screen.scss */
+  /* line 2371, ../sass/screen.scss */
   .obzor .left-col {
     padding-bottom: 60px;
   }
-  /* line 2369, ../sass/screen.scss */
+  /* line 2373, ../sass/screen.scss */
   .obzor .left-col .usd-val {
     position: unset;
   }
-  /* line 2372, ../sass/screen.scss */
+  /* line 2376, ../sass/screen.scss */
   .obzor .left-col .img-responsive {
     position: unset;
   }
-  /* line 2375, ../sass/screen.scss */
+  /* line 2379, ../sass/screen.scss */
   .obzor .left-col span {
     position: unset;
   }
 
-  /* line 2380, ../sass/screen.scss */
+  /* line 2384, ../sass/screen.scss */
   .work {
     background-position: -280px 0px;
   }
-  /* line 2384, ../sass/screen.scss */
+  /* line 2388, ../sass/screen.scss */
   .work h3 {
     font-size: 30px;
     padding-top: 25px;
     position: unset;
     padding-bottom: 25px;
   }
-  /* line 2390, ../sass/screen.scss */
+  /* line 2394, ../sass/screen.scss */
   .work p {
     padding-bottom: 40px;
     line-height: 20px;
@@ -2742,37 +2747,37 @@ body .docSmart {
     letter-spacing: .3px;
     font-weight: 100;
   }
-  /* line 2400, ../sass/screen.scss */
+  /* line 2404, ../sass/screen.scss */
   .work .box {
     position: unset;
     margin-bottom: 40px;
   }
-  /* line 2403, ../sass/screen.scss */
+  /* line 2407, ../sass/screen.scss */
   .work .box .desc {
     display: none;
     background-color: transparent;
     font-size: 16px;
     color: #fff;
   }
-  /* line 2410, ../sass/screen.scss */
+  /* line 2414, ../sass/screen.scss */
   .work .box:hover .desc {
     display: none;
   }
-  /* line 2414, ../sass/screen.scss */
+  /* line 2418, ../sass/screen.scss */
   .work .box p {
     display: none;
   }
-  /* line 2417, ../sass/screen.scss */
+  /* line 2421, ../sass/screen.scss */
   .work .box .mob-view {
     display: block;
   }
-  /* line 2419, ../sass/screen.scss */
+  /* line 2423, ../sass/screen.scss */
   .work .box .mob-view h5 {
     font-size: 20px;
     padding-top: 0;
     padding-bottom: 20px;
   }
-  /* line 2425, ../sass/screen.scss */
+  /* line 2429, ../sass/screen.scss */
   .work .box .mob-view span {
     display: inline-block;
     padding-right: 0;
@@ -2782,7 +2787,7 @@ body .docSmart {
     letter-spacing: .4px;
     font-weight: 200;
   }
-  /* line 2436, ../sass/screen.scss */
+  /* line 2440, ../sass/screen.scss */
   .work .box img {
     width: 120px;
     height: 120px;
@@ -2791,7 +2796,7 @@ body .docSmart {
     margin-bottom: 20px;
   }
 
-  /* line 2446, ../sass/screen.scss */
+  /* line 2450, ../sass/screen.scss */
   .garant h3 {
     font-size: 30px;
     padding-bottom: 10px;
@@ -2799,7 +2804,7 @@ body .docSmart {
     position: unset;
     font-weight: 100;
   }
-  /* line 2453, ../sass/screen.scss */
+  /* line 2457, ../sass/screen.scss */
   .garant p {
     font-size: 20px;
     text-align: left;
@@ -2809,41 +2814,41 @@ body .docSmart {
     letter-spacing: 0.3px;
     position: unset;
   }
-  /* line 2462, ../sass/screen.scss */
+  /* line 2466, ../sass/screen.scss */
   .garant p.serts_head {
     position: unset;
     margin-bottom: 20px;
     font-weight: 400;
   }
-  /* line 2467, ../sass/screen.scss */
+  /* line 2471, ../sass/screen.scss */
   .garant .sert {
     display: flex;
     flex-wrap: wrap;
     position: unset;
     margin-bottom: 40px;
   }
-  /* line 2472, ../sass/screen.scss */
+  /* line 2476, ../sass/screen.scss */
   .garant .sert img {
     margin-bottom: 35px;
   }
-  /* line 2475, ../sass/screen.scss */
+  /* line 2479, ../sass/screen.scss */
   .garant .sert .sert1 {
     width: 85px;
   }
-  /* line 2478, ../sass/screen.scss */
+  /* line 2482, ../sass/screen.scss */
   .garant .sert .sert2 {
     width: 90px;
   }
-  /* line 2481, ../sass/screen.scss */
+  /* line 2485, ../sass/screen.scss */
   .garant .sert .sert3, .garant .sert .sert5 {
     width: 130px;
   }
-  /* line 2484, ../sass/screen.scss */
+  /* line 2488, ../sass/screen.scss */
   .garant .sert .sert4 {
     width: 85px;
   }
 
-  /* line 2490, ../sass/screen.scss */
+  /* line 2494, ../sass/screen.scss */
   .service h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -2852,7 +2857,7 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.6px;
   }
-  /* line 2498, ../sass/screen.scss */
+  /* line 2502, ../sass/screen.scss */
   .service p {
     font-size: 20px;
     font-weight: 100;
@@ -2863,26 +2868,26 @@ body .docSmart {
     padding-left: 15px;
     padding-right: 5px;
   }
-  /* line 2508, ../sass/screen.scss */
+  /* line 2512, ../sass/screen.scss */
   .service .box {
     position: unset;
     text-align: center;
     margin-bottom: 60px;
     padding-left: 15px;
   }
-  /* line 2514, ../sass/screen.scss */
+  /* line 2518, ../sass/screen.scss */
   .service .box:hover .desc {
     display: none;
   }
-  /* line 2518, ../sass/screen.scss */
+  /* line 2522, ../sass/screen.scss */
   .service .box p {
     display: none;
   }
-  /* line 2521, ../sass/screen.scss */
+  /* line 2525, ../sass/screen.scss */
   .service .box .mob-view {
     display: block;
   }
-  /* line 2523, ../sass/screen.scss */
+  /* line 2527, ../sass/screen.scss */
   .service .box .mob-view h5 {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -2892,7 +2897,7 @@ body .docSmart {
     font-weight: 300;
     letter-spacing: 0.6px;
   }
-  /* line 2531, ../sass/screen.scss */
+  /* line 2535, ../sass/screen.scss */
   .service .box .mob-view span {
     font-weight: 100;
     line-height: 21px;
@@ -2902,37 +2907,37 @@ body .docSmart {
     letter-spacing: 0.2px;
     line-height: 21px;
   }
-  /* line 2541, ../sass/screen.scss */
+  /* line 2545, ../sass/screen.scss */
   .service .box img {
     width: 120px;
     height: 120px;
     margin-right: 0px;
   }
-  /* line 2547, ../sass/screen.scss */
+  /* line 2551, ../sass/screen.scss */
   .service .overlay1 {
     background-position: -1275px 0;
   }
-  /* line 2550, ../sass/screen.scss */
+  /* line 2554, ../sass/screen.scss */
   .service .first_box {
     position: unset;
   }
 
-  /* line 2554, ../sass/screen.scss */
+  /* line 2558, ../sass/screen.scss */
   .proect_creator {
     padding-bottom: 0;
   }
-  /* line 2556, ../sass/screen.scss */
+  /* line 2560, ../sass/screen.scss */
   .proect_creator h3 {
     padding-top: 25px;
     padding-bottom: 0;
     font-size: 30px;
     margin-left: 0;
   }
-  /* line 2562, ../sass/screen.scss */
+  /* line 2566, ../sass/screen.scss */
   .proect_creator .box {
     left: 0;
   }
-  /* line 2564, ../sass/screen.scss */
+  /* line 2568, ../sass/screen.scss */
   .proect_creator .box .desc {
     display: block;
     position: unset;
@@ -2940,52 +2945,52 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 2570, ../sass/screen.scss */
+  /* line 2574, ../sass/screen.scss */
   .proect_creator .box .desc span {
     font-weight: 100;
     line-height: 23px;
     padding: 20px 5px 21px;
     font-size: 20px;
   }
-  /* line 2576, ../sass/screen.scss */
+  /* line 2580, ../sass/screen.scss */
   .proect_creator .box .desc h5 {
     display: none;
   }
-  /* line 2579, ../sass/screen.scss */
+  /* line 2583, ../sass/screen.scss */
   .proect_creator .box .desc .right_doc {
     padding-bottom: 60px;
   }
-  /* line 2583, ../sass/screen.scss */
+  /* line 2587, ../sass/screen.scss */
   .proect_creator .box p {
     position: unset;
     font-size: 20px;
     line-height: 21px;
     padding-bottom: 0;
   }
-  /* line 2590, ../sass/screen.scss */
+  /* line 2594, ../sass/screen.scss */
   .proect_creator .round1, .proect_creator .round2 {
     position: unset;
   }
 
-  /* line 2595, ../sass/screen.scss */
+  /* line 2599, ../sass/screen.scss */
   .team h3 {
     padding-top: 25px;
     font-size: 30px;
   }
-  /* line 2599, ../sass/screen.scss */
+  /* line 2603, ../sass/screen.scss */
   .team h4 {
     padding-bottom: 40px;
     font-size: 24px;
   }
-  /* line 2603, ../sass/screen.scss */
+  /* line 2607, ../sass/screen.scss */
   .team .top-row {
     border: none;
   }
-  /* line 2606, ../sass/screen.scss */
+  /* line 2610, ../sass/screen.scss */
   .team .box {
     left: 0;
   }
-  /* line 2608, ../sass/screen.scss */
+  /* line 2612, ../sass/screen.scss */
   .team .box .desc {
     display: block;
     position: unset;
@@ -2993,7 +2998,7 @@ body .docSmart {
     font-size: 18px;
     color: #505050;
   }
-  /* line 2614, ../sass/screen.scss */
+  /* line 2618, ../sass/screen.scss */
   .team .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -3001,36 +3006,36 @@ body .docSmart {
     font-size: 20px;
     letter-spacing: .5px;
   }
-  /* line 2621, ../sass/screen.scss */
+  /* line 2625, ../sass/screen.scss */
   .team .box .desc h5 {
     display: none;
   }
-  /* line 2625, ../sass/screen.scss */
+  /* line 2629, ../sass/screen.scss */
   .team .box p {
     position: unset;
     font-weight: 300;
     font-size: 20px;
   }
-  /* line 2631, ../sass/screen.scss */
+  /* line 2635, ../sass/screen.scss */
   .team .box1, .team .box2, .team .box3, .team .box4 {
     padding-bottom: 30px;
     padding-top: 30px;
     border: none;
   }
-  /* line 2635, ../sass/screen.scss */
+  /* line 2639, ../sass/screen.scss */
   .team .box1 p, .team .box2 p, .team .box3 p, .team .box4 p {
     margin-left: 0;
   }
-  /* line 2639, ../sass/screen.scss */
+  /* line 2643, ../sass/screen.scss */
   .team .round2 {
     position: unset;
   }
-  /* line 2642, ../sass/screen.scss */
+  /* line 2646, ../sass/screen.scss */
   .team .round4 {
     position: unset;
   }
 
-  /* line 2647, ../sass/screen.scss */
+  /* line 2651, ../sass/screen.scss */
   .edviser h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -3040,7 +3045,7 @@ body .docSmart {
     margin-bottom: 5px;
     letter-spacing: .5px;
   }
-  /* line 2656, ../sass/screen.scss */
+  /* line 2660, ../sass/screen.scss */
   .edviser h4 {
     font-weight: 100;
     padding-bottom: 40px;
@@ -3049,23 +3054,23 @@ body .docSmart {
     margin-left: 0;
     position: unset;
   }
-  /* line 2664, ../sass/screen.scss */
+  /* line 2668, ../sass/screen.scss */
   .edviser p {
     font-size: 20px;
   }
-  /* line 2667, ../sass/screen.scss */
+  /* line 2671, ../sass/screen.scss */
   .edviser .top-row {
     border: none;
   }
-  /* line 2670, ../sass/screen.scss */
+  /* line 2674, ../sass/screen.scss */
   .edviser .bottom-row_2 {
     border: none;
   }
-  /* line 2673, ../sass/screen.scss */
+  /* line 2677, ../sass/screen.scss */
   .edviser .box {
     left: 0;
   }
-  /* line 2675, ../sass/screen.scss */
+  /* line 2679, ../sass/screen.scss */
   .edviser .box .desc {
     display: block;
     position: unset;
@@ -3073,7 +3078,7 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 2681, ../sass/screen.scss */
+  /* line 2685, ../sass/screen.scss */
   .edviser .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -3081,32 +3086,32 @@ body .docSmart {
     letter-spacing: 0.5px;
     padding: 20px 0px 25px;
   }
-  /* line 2688, ../sass/screen.scss */
+  /* line 2692, ../sass/screen.scss */
   .edviser .box .desc h5 {
     display: none;
   }
-  /* line 2692, ../sass/screen.scss */
+  /* line 2696, ../sass/screen.scss */
   .edviser .box p {
     position: unset;
     margin-left: 0;
     position: unset;
   }
-  /* line 2698, ../sass/screen.scss */
+  /* line 2702, ../sass/screen.scss */
   .edviser .box1, .edviser .box3, .edviser .box2, .edviser .box4, .edviser .box5 {
     border: none;
     padding-bottom: 0px;
     padding-top: 30px;
   }
-  /* line 2703, ../sass/screen.scss */
+  /* line 2707, ../sass/screen.scss */
   .edviser .round {
     position: unset;
   }
 
-  /* line 2708, ../sass/screen.scss */
+  /* line 2712, ../sass/screen.scss */
   .welcome .flex-row {
     padding: 0;
   }
-  /* line 2711, ../sass/screen.scss */
+  /* line 2715, ../sass/screen.scss */
   .welcome .left-box {
     position: unset;
     background-image: url(../img/bottom-doctor.jpg);
@@ -3115,14 +3120,14 @@ body .docSmart {
     background-position: 100px 0px;
     margin-bottom: 110px;
   }
-  /* line 2719, ../sass/screen.scss */
+  /* line 2723, ../sass/screen.scss */
   .welcome .right-box {
     position: unset;
     text-align: center;
     margin-top: -80px;
     margin-bottom: 20px;
   }
-  /* line 2724, ../sass/screen.scss */
+  /* line 2728, ../sass/screen.scss */
   .welcome .right-box .send {
     position: unset;
     padding: 10px 40px;
@@ -3130,11 +3135,11 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.8px;
   }
-  /* line 2732, ../sass/screen.scss */
+  /* line 2736, ../sass/screen.scss */
   .welcome .img-responsive {
     display: none;
   }
-  /* line 2735, ../sass/screen.scss */
+  /* line 2739, ../sass/screen.scss */
   .welcome h4 {
     display: inline-block;
     padding-left: 20px;
@@ -3146,7 +3151,7 @@ body .docSmart {
     letter-spacing: 0.6px;
     width: 180px;
   }
-  /* line 2746, ../sass/screen.scss */
+  /* line 2750, ../sass/screen.scss */
   .welcome p {
     font-size: 20px;
     line-height: 20px;
@@ -3154,7 +3159,7 @@ body .docSmart {
     padding-top: 40px;
   }
 
-  /* line 2754, ../sass/screen.scss */
+  /* line 2758, ../sass/screen.scss */
   .footer h4 {
     position: unset;
     font-size: 30px;
@@ -3162,103 +3167,103 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.7px;
   }
-  /* line 2761, ../sass/screen.scss */
+  /* line 2765, ../sass/screen.scss */
   .footer span {
     position: unset;
     padding-bottom: 10px;
     font-size: 20px;
   }
-  /* line 2767, ../sass/screen.scss */
+  /* line 2771, ../sass/screen.scss */
   .footer .contacts li {
     float: none;
     margin-right: 0;
     padding-bottom: 45px;
   }
-  /* line 2773, ../sass/screen.scss */
+  /* line 2777, ../sass/screen.scss */
   .footer .social_icons {
     padding-top: 30px;
     display: flex;
     justify-content: space-around;
     border-top: 1px solid #fff;
   }
-  /* line 2778, ../sass/screen.scss */
+  /* line 2782, ../sass/screen.scss */
   .footer .social_icons li {
     margin-right: 0px;
   }
 }
 @media (min-width: 375px) and (max-width: 411px) {
-  /* line 2785, ../sass/screen.scss */
+  /* line 2789, ../sass/screen.scss */
   .mfp-close-btn-in .mfp-close {
     top: 0px;
     right: 5px;
   }
 
-  /* line 2789, ../sass/screen.scss */
+  /* line 2793, ../sass/screen.scss */
   #form1 {
     max-width: 300px;
     padding: 15px;
   }
-  /* line 2792, ../sass/screen.scss */
+  /* line 2796, ../sass/screen.scss */
   #form1 h3 {
     font-size: 22px;
     color: #73d0d5;
     padding-top: 20px;
     padding-bottom: 30px;
   }
-  /* line 2798, ../sass/screen.scss */
+  /* line 2802, ../sass/screen.scss */
   #form1 input {
     margin-bottom: 20px;
     padding: 5px 15px;
     font-size: 18px;
   }
-  /* line 2803, ../sass/screen.scss */
+  /* line 2807, ../sass/screen.scss */
   #form1 textarea {
     height: 90px;
     font-size: 20px;
   }
-  /* line 2807, ../sass/screen.scss */
+  /* line 2811, ../sass/screen.scss */
   #form1 .send_massage_btn {
     font-size: 20px;
     padding: 10px 30px;
     margin-bottom: 20px;
   }
 
-  /* line 2814, ../sass/screen.scss */
+  /* line 2818, ../sass/screen.scss */
   .head .overlay {
     background-position: -1040px 230px;
   }
-  /* line 2817, ../sass/screen.scss */
+  /* line 2821, ../sass/screen.scss */
   .head nav {
     margin-top: 15px;
   }
-  /* line 2819, ../sass/screen.scss */
+  /* line 2823, ../sass/screen.scss */
   .head nav .menu {
     display: none;
   }
-  /* line 2822, ../sass/screen.scss */
+  /* line 2826, ../sass/screen.scss */
   .head nav .lang {
     display: none;
   }
-  /* line 2825, ../sass/screen.scss */
+  /* line 2829, ../sass/screen.scss */
   .head nav .mob_burger {
     z-index: 99999999;
   }
-  /* line 2829, ../sass/screen.scss */
+  /* line 2833, ../sass/screen.scss */
   .head .logo {
     width: 170px;
     height: 90px;
     margin: 0 auto;
     margin-top: -50px;
   }
-  /* line 2834, ../sass/screen.scss */
+  /* line 2838, ../sass/screen.scss */
   .head .logo img {
     width: 100%;
   }
-  /* line 2838, ../sass/screen.scss */
+  /* line 2842, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 300px;
   }
-  /* line 2840, ../sass/screen.scss */
+  /* line 2844, ../sass/screen.scss */
   .head .mid-row p {
     font-size: 17px;
     line-height: 19px;
@@ -3267,7 +3272,7 @@ body .docSmart {
     left: -10px;
     font-weight: 300;
   }
-  /* line 2847, ../sass/screen.scss */
+  /* line 2851, ../sass/screen.scss */
   .head .mid-row p span {
     font-weight: 400;
     letter-spacing: 0.3px;
@@ -3276,15 +3281,15 @@ body .docSmart {
     letter-spacing: .5px;
     display: inline-block;
   }
-  /* line 2855, ../sass/screen.scss */
+  /* line 2859, ../sass/screen.scss */
   .head .mid-row p .bottom_span {
     width: 140px;
   }
-  /* line 2860, ../sass/screen.scss */
+  /* line 2864, ../sass/screen.scss */
   .head .mid-row-eng {
     padding-bottom: 400px;
   }
-  /* line 2864, ../sass/screen.scss */
+  /* line 2868, ../sass/screen.scss */
   .head .mob-nav .close-menu {
     position: absolute;
     top: 0px;
@@ -3292,13 +3297,13 @@ body .docSmart {
     font-size: 23px;
   }
 
-  /* line 2872, ../sass/screen.scss */
+  /* line 2876, ../sass/screen.scss */
   .obzor {
     font-family: 'PF DinDisplay Pro';
     display: flex;
     flex-direction: column-reverse;
   }
-  /* line 2876, ../sass/screen.scss */
+  /* line 2880, ../sass/screen.scss */
   .obzor h4 {
     position: unset;
     text-align: center;
@@ -3308,7 +3313,7 @@ body .docSmart {
     padding-top: 30px;
     letter-spacing: 0.7px;
   }
-  /* line 2885, ../sass/screen.scss */
+  /* line 2889, ../sass/screen.scss */
   .obzor p {
     font-family: 'PF DinDisplay Pro';
     position: unset;
@@ -3318,48 +3323,48 @@ body .docSmart {
     line-height: 21px;
     letter-spacing: 0.6px;
   }
-  /* line 2894, ../sass/screen.scss */
+  /* line 2898, ../sass/screen.scss */
   .obzor span {
     font-size: 14px;
   }
-  /* line 2897, ../sass/screen.scss */
+  /* line 2901, ../sass/screen.scss */
   .obzor .grandview {
     padding-top: 0px;
   }
-  /* line 2900, ../sass/screen.scss */
+  /* line 2904, ../sass/screen.scss */
   .obzor .ist-world-bank {
     font-size: 16px;
     right: 10px;
   }
-  /* line 2904, ../sass/screen.scss */
+  /* line 2908, ../sass/screen.scss */
   .obzor .left-col {
     padding-bottom: 60px;
   }
-  /* line 2906, ../sass/screen.scss */
+  /* line 2910, ../sass/screen.scss */
   .obzor .left-col .usd-val {
     position: unset;
   }
-  /* line 2909, ../sass/screen.scss */
+  /* line 2913, ../sass/screen.scss */
   .obzor .left-col .img-responsive {
     position: unset;
   }
-  /* line 2912, ../sass/screen.scss */
+  /* line 2916, ../sass/screen.scss */
   .obzor .left-col span {
     position: unset;
   }
 
-  /* line 2917, ../sass/screen.scss */
+  /* line 2921, ../sass/screen.scss */
   .work {
     background-position: -280px 0px;
   }
-  /* line 2921, ../sass/screen.scss */
+  /* line 2925, ../sass/screen.scss */
   .work h3 {
     font-size: 30px;
     padding-top: 25px;
     position: unset;
     padding-bottom: 25px;
   }
-  /* line 2927, ../sass/screen.scss */
+  /* line 2931, ../sass/screen.scss */
   .work p {
     padding-bottom: 40px;
     line-height: 20px;
@@ -3370,37 +3375,37 @@ body .docSmart {
     letter-spacing: .3px;
     font-weight: 100;
   }
-  /* line 2937, ../sass/screen.scss */
+  /* line 2941, ../sass/screen.scss */
   .work .box {
     position: unset;
     margin-bottom: 40px;
   }
-  /* line 2940, ../sass/screen.scss */
+  /* line 2944, ../sass/screen.scss */
   .work .box .desc {
     display: none;
     background-color: transparent;
     font-size: 16px;
     color: #fff;
   }
-  /* line 2947, ../sass/screen.scss */
+  /* line 2951, ../sass/screen.scss */
   .work .box:hover .desc {
     display: none;
   }
-  /* line 2951, ../sass/screen.scss */
+  /* line 2955, ../sass/screen.scss */
   .work .box p {
     display: none;
   }
-  /* line 2954, ../sass/screen.scss */
+  /* line 2958, ../sass/screen.scss */
   .work .box .mob-view {
     display: block;
   }
-  /* line 2956, ../sass/screen.scss */
+  /* line 2960, ../sass/screen.scss */
   .work .box .mob-view h5 {
     font-size: 20px;
     padding-top: 0;
     padding-bottom: 20px;
   }
-  /* line 2962, ../sass/screen.scss */
+  /* line 2966, ../sass/screen.scss */
   .work .box .mob-view span {
     display: inline-block;
     padding-right: 0;
@@ -3410,7 +3415,7 @@ body .docSmart {
     letter-spacing: .4px;
     font-weight: 200;
   }
-  /* line 2973, ../sass/screen.scss */
+  /* line 2977, ../sass/screen.scss */
   .work .box img {
     width: 120px;
     height: 120px;
@@ -3419,7 +3424,7 @@ body .docSmart {
     margin-bottom: 20px;
   }
 
-  /* line 2983, ../sass/screen.scss */
+  /* line 2987, ../sass/screen.scss */
   .garant h3 {
     font-size: 30px;
     padding-bottom: 10px;
@@ -3427,7 +3432,7 @@ body .docSmart {
     position: unset;
     font-weight: 100;
   }
-  /* line 2990, ../sass/screen.scss */
+  /* line 2994, ../sass/screen.scss */
   .garant p {
     font-size: 20px;
     text-align: left;
@@ -3437,41 +3442,41 @@ body .docSmart {
     letter-spacing: 0.3px;
     position: unset;
   }
-  /* line 2999, ../sass/screen.scss */
+  /* line 3003, ../sass/screen.scss */
   .garant p.serts_head {
     position: unset;
     margin-bottom: 20px;
     font-weight: 400;
   }
-  /* line 3004, ../sass/screen.scss */
+  /* line 3008, ../sass/screen.scss */
   .garant .sert {
     display: flex;
     flex-wrap: wrap;
     position: unset;
     margin-bottom: 40px;
   }
-  /* line 3009, ../sass/screen.scss */
+  /* line 3013, ../sass/screen.scss */
   .garant .sert img {
     margin-bottom: 35px;
   }
-  /* line 3012, ../sass/screen.scss */
+  /* line 3016, ../sass/screen.scss */
   .garant .sert .sert1 {
     width: 85px;
   }
-  /* line 3015, ../sass/screen.scss */
+  /* line 3019, ../sass/screen.scss */
   .garant .sert .sert2 {
     width: 90px;
   }
-  /* line 3018, ../sass/screen.scss */
+  /* line 3022, ../sass/screen.scss */
   .garant .sert .sert3, .garant .sert .sert5 {
     width: 130px;
   }
-  /* line 3021, ../sass/screen.scss */
+  /* line 3025, ../sass/screen.scss */
   .garant .sert .sert4 {
     width: 85px;
   }
 
-  /* line 3027, ../sass/screen.scss */
+  /* line 3031, ../sass/screen.scss */
   .service h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -3480,7 +3485,7 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.6px;
   }
-  /* line 3035, ../sass/screen.scss */
+  /* line 3039, ../sass/screen.scss */
   .service p {
     font-size: 20px;
     font-weight: 100;
@@ -3491,26 +3496,26 @@ body .docSmart {
     padding-left: 15px;
     padding-right: 5px;
   }
-  /* line 3045, ../sass/screen.scss */
+  /* line 3049, ../sass/screen.scss */
   .service .box {
     position: unset;
     text-align: center;
     margin-bottom: 60px;
     padding-left: 15px;
   }
-  /* line 3051, ../sass/screen.scss */
+  /* line 3055, ../sass/screen.scss */
   .service .box:hover .desc {
     display: none;
   }
-  /* line 3055, ../sass/screen.scss */
+  /* line 3059, ../sass/screen.scss */
   .service .box p {
     display: none;
   }
-  /* line 3058, ../sass/screen.scss */
+  /* line 3062, ../sass/screen.scss */
   .service .box .mob-view {
     display: block;
   }
-  /* line 3060, ../sass/screen.scss */
+  /* line 3064, ../sass/screen.scss */
   .service .box .mob-view h5 {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -3520,7 +3525,7 @@ body .docSmart {
     font-weight: 300;
     letter-spacing: 0.6px;
   }
-  /* line 3068, ../sass/screen.scss */
+  /* line 3072, ../sass/screen.scss */
   .service .box .mob-view span {
     font-weight: 100;
     line-height: 21px;
@@ -3530,37 +3535,37 @@ body .docSmart {
     letter-spacing: 0.2px;
     line-height: 21px;
   }
-  /* line 3078, ../sass/screen.scss */
+  /* line 3082, ../sass/screen.scss */
   .service .box img {
     width: 120px;
     height: 120px;
     margin-right: 0px;
   }
-  /* line 3084, ../sass/screen.scss */
+  /* line 3088, ../sass/screen.scss */
   .service .overlay1 {
     background-position: -1275px 0;
   }
-  /* line 3087, ../sass/screen.scss */
+  /* line 3091, ../sass/screen.scss */
   .service .first_box {
     position: unset;
   }
 
-  /* line 3091, ../sass/screen.scss */
+  /* line 3095, ../sass/screen.scss */
   .proect_creator {
     padding-bottom: 0;
   }
-  /* line 3093, ../sass/screen.scss */
+  /* line 3097, ../sass/screen.scss */
   .proect_creator h3 {
     padding-top: 25px;
     padding-bottom: 0;
     font-size: 30px;
     margin-left: 0;
   }
-  /* line 3099, ../sass/screen.scss */
+  /* line 3103, ../sass/screen.scss */
   .proect_creator .box {
     left: 0;
   }
-  /* line 3101, ../sass/screen.scss */
+  /* line 3105, ../sass/screen.scss */
   .proect_creator .box .desc {
     display: block;
     position: unset;
@@ -3568,52 +3573,52 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 3107, ../sass/screen.scss */
+  /* line 3111, ../sass/screen.scss */
   .proect_creator .box .desc span {
     font-weight: 100;
     line-height: 23px;
     padding: 20px 5px 21px;
     font-size: 20px;
   }
-  /* line 3113, ../sass/screen.scss */
+  /* line 3117, ../sass/screen.scss */
   .proect_creator .box .desc h5 {
     display: none;
   }
-  /* line 3116, ../sass/screen.scss */
+  /* line 3120, ../sass/screen.scss */
   .proect_creator .box .desc .right_doc {
     padding-bottom: 60px;
   }
-  /* line 3120, ../sass/screen.scss */
+  /* line 3124, ../sass/screen.scss */
   .proect_creator .box p {
     position: unset;
     font-size: 20px;
     line-height: 21px;
     padding-bottom: 0;
   }
-  /* line 3127, ../sass/screen.scss */
+  /* line 3131, ../sass/screen.scss */
   .proect_creator .round1, .proect_creator .round2 {
     position: unset;
   }
 
-  /* line 3132, ../sass/screen.scss */
+  /* line 3136, ../sass/screen.scss */
   .team h3 {
     padding-top: 25px;
     font-size: 30px;
   }
-  /* line 3136, ../sass/screen.scss */
+  /* line 3140, ../sass/screen.scss */
   .team h4 {
     padding-bottom: 40px;
     font-size: 24px;
   }
-  /* line 3140, ../sass/screen.scss */
+  /* line 3144, ../sass/screen.scss */
   .team .top-row {
     border: none;
   }
-  /* line 3143, ../sass/screen.scss */
+  /* line 3147, ../sass/screen.scss */
   .team .box {
     left: 0;
   }
-  /* line 3145, ../sass/screen.scss */
+  /* line 3149, ../sass/screen.scss */
   .team .box .desc {
     display: block;
     position: unset;
@@ -3621,7 +3626,7 @@ body .docSmart {
     font-size: 18px;
     color: #505050;
   }
-  /* line 3151, ../sass/screen.scss */
+  /* line 3155, ../sass/screen.scss */
   .team .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -3629,36 +3634,36 @@ body .docSmart {
     font-size: 20px;
     letter-spacing: .5px;
   }
-  /* line 3158, ../sass/screen.scss */
+  /* line 3162, ../sass/screen.scss */
   .team .box .desc h5 {
     display: none;
   }
-  /* line 3162, ../sass/screen.scss */
+  /* line 3166, ../sass/screen.scss */
   .team .box p {
     position: unset;
     font-weight: 300;
     font-size: 20px;
   }
-  /* line 3168, ../sass/screen.scss */
+  /* line 3172, ../sass/screen.scss */
   .team .box1, .team .box2, .team .box3, .team .box4 {
     padding-bottom: 30px;
     padding-top: 30px;
     border: none;
   }
-  /* line 3172, ../sass/screen.scss */
+  /* line 3176, ../sass/screen.scss */
   .team .box1 p, .team .box2 p, .team .box3 p, .team .box4 p {
     margin-left: 0;
   }
-  /* line 3176, ../sass/screen.scss */
+  /* line 3180, ../sass/screen.scss */
   .team .round2 {
     position: unset;
   }
-  /* line 3179, ../sass/screen.scss */
+  /* line 3183, ../sass/screen.scss */
   .team .round4 {
     position: unset;
   }
 
-  /* line 3184, ../sass/screen.scss */
+  /* line 3188, ../sass/screen.scss */
   .edviser h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -3668,7 +3673,7 @@ body .docSmart {
     margin-bottom: 5px;
     letter-spacing: .5px;
   }
-  /* line 3193, ../sass/screen.scss */
+  /* line 3197, ../sass/screen.scss */
   .edviser h4 {
     font-weight: 100;
     padding-bottom: 40px;
@@ -3677,23 +3682,23 @@ body .docSmart {
     margin-left: 0;
     position: unset;
   }
-  /* line 3201, ../sass/screen.scss */
+  /* line 3205, ../sass/screen.scss */
   .edviser p {
     font-size: 20px;
   }
-  /* line 3204, ../sass/screen.scss */
+  /* line 3208, ../sass/screen.scss */
   .edviser .top-row {
     border: none;
   }
-  /* line 3207, ../sass/screen.scss */
+  /* line 3211, ../sass/screen.scss */
   .edviser .bottom-row_2 {
     border: none;
   }
-  /* line 3210, ../sass/screen.scss */
+  /* line 3214, ../sass/screen.scss */
   .edviser .box {
     left: 0;
   }
-  /* line 3212, ../sass/screen.scss */
+  /* line 3216, ../sass/screen.scss */
   .edviser .box .desc {
     display: block;
     position: unset;
@@ -3701,7 +3706,7 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 3218, ../sass/screen.scss */
+  /* line 3222, ../sass/screen.scss */
   .edviser .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -3709,32 +3714,32 @@ body .docSmart {
     letter-spacing: 0.5px;
     padding: 20px 0px 25px;
   }
-  /* line 3225, ../sass/screen.scss */
+  /* line 3229, ../sass/screen.scss */
   .edviser .box .desc h5 {
     display: none;
   }
-  /* line 3229, ../sass/screen.scss */
+  /* line 3233, ../sass/screen.scss */
   .edviser .box p {
     position: unset;
     margin-left: 0;
     position: unset;
   }
-  /* line 3235, ../sass/screen.scss */
+  /* line 3239, ../sass/screen.scss */
   .edviser .box1, .edviser .box3, .edviser .box2, .edviser .box4, .edviser .box5 {
     border: none;
     padding-bottom: 0px;
     padding-top: 30px;
   }
-  /* line 3240, ../sass/screen.scss */
+  /* line 3244, ../sass/screen.scss */
   .edviser .round {
     position: unset;
   }
 
-  /* line 3245, ../sass/screen.scss */
+  /* line 3249, ../sass/screen.scss */
   .welcome .flex-row {
     padding: 0;
   }
-  /* line 3248, ../sass/screen.scss */
+  /* line 3252, ../sass/screen.scss */
   .welcome .left-box {
     position: unset;
     background-image: url(../img/bottom-doctor.jpg);
@@ -3743,14 +3748,14 @@ body .docSmart {
     background-position: 100px 0px;
     margin-bottom: 110px;
   }
-  /* line 3256, ../sass/screen.scss */
+  /* line 3260, ../sass/screen.scss */
   .welcome .right-box {
     position: unset;
     text-align: center;
     margin-top: -80px;
     margin-bottom: 20px;
   }
-  /* line 3261, ../sass/screen.scss */
+  /* line 3265, ../sass/screen.scss */
   .welcome .right-box .send {
     position: unset;
     padding: 10px 40px;
@@ -3758,11 +3763,11 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.8px;
   }
-  /* line 3269, ../sass/screen.scss */
+  /* line 3273, ../sass/screen.scss */
   .welcome .img-responsive {
     display: none;
   }
-  /* line 3272, ../sass/screen.scss */
+  /* line 3276, ../sass/screen.scss */
   .welcome h4 {
     display: inline-block;
     padding-left: 20px;
@@ -3774,14 +3779,14 @@ body .docSmart {
     letter-spacing: 0.6px;
     width: 180px;
   }
-  /* line 3283, ../sass/screen.scss */
+  /* line 3287, ../sass/screen.scss */
   .welcome p {
     font-size: 20px;
     line-height: 20px;
     padding-left: 7%;
   }
 
-  /* line 3290, ../sass/screen.scss */
+  /* line 3294, ../sass/screen.scss */
   .footer h4 {
     position: unset;
     font-size: 30px;
@@ -3789,103 +3794,103 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.7px;
   }
-  /* line 3297, ../sass/screen.scss */
+  /* line 3301, ../sass/screen.scss */
   .footer span {
     position: unset;
     padding-bottom: 10px;
     font-size: 20px;
   }
-  /* line 3303, ../sass/screen.scss */
+  /* line 3307, ../sass/screen.scss */
   .footer .contacts li {
     float: none;
     margin-right: 0;
     padding-bottom: 45px;
   }
-  /* line 3309, ../sass/screen.scss */
+  /* line 3313, ../sass/screen.scss */
   .footer .social_icons {
     padding-top: 30px;
     display: flex;
     justify-content: space-around;
     border-top: 1px solid #fff;
   }
-  /* line 3314, ../sass/screen.scss */
+  /* line 3318, ../sass/screen.scss */
   .footer .social_icons li {
     margin-right: 0px;
   }
 }
 @media (min-width: 360px) and (max-width: 374px) {
-  /* line 3321, ../sass/screen.scss */
+  /* line 3325, ../sass/screen.scss */
   .mfp-close-btn-in .mfp-close {
     top: 0px;
     right: 5px;
   }
 
-  /* line 3325, ../sass/screen.scss */
+  /* line 3329, ../sass/screen.scss */
   #form1 {
     max-width: 300px;
     padding: 15px;
   }
-  /* line 3328, ../sass/screen.scss */
+  /* line 3332, ../sass/screen.scss */
   #form1 h3 {
     font-size: 22px;
     color: #73d0d5;
     padding-top: 20px;
     padding-bottom: 30px;
   }
-  /* line 3334, ../sass/screen.scss */
+  /* line 3338, ../sass/screen.scss */
   #form1 input {
     margin-bottom: 20px;
     padding: 5px 15px;
     font-size: 18px;
   }
-  /* line 3339, ../sass/screen.scss */
+  /* line 3343, ../sass/screen.scss */
   #form1 textarea {
     height: 90px;
     font-size: 20px;
   }
-  /* line 3343, ../sass/screen.scss */
+  /* line 3347, ../sass/screen.scss */
   #form1 .send_massage_btn {
     font-size: 20px;
     padding: 10px 30px;
     margin-bottom: 20px;
   }
 
-  /* line 3350, ../sass/screen.scss */
+  /* line 3354, ../sass/screen.scss */
   .head .overlay {
     background-position: -1040px 230px;
   }
-  /* line 3353, ../sass/screen.scss */
+  /* line 3357, ../sass/screen.scss */
   .head nav {
     margin-top: 15px;
   }
-  /* line 3355, ../sass/screen.scss */
+  /* line 3359, ../sass/screen.scss */
   .head nav .menu {
     display: none;
   }
-  /* line 3358, ../sass/screen.scss */
+  /* line 3362, ../sass/screen.scss */
   .head nav .lang {
     display: none;
   }
-  /* line 3361, ../sass/screen.scss */
+  /* line 3365, ../sass/screen.scss */
   .head nav .mob_burger {
     z-index: 99999999;
   }
-  /* line 3365, ../sass/screen.scss */
+  /* line 3369, ../sass/screen.scss */
   .head .logo {
     width: 170px;
     height: 90px;
     margin: 0 auto;
     margin-top: -50px;
   }
-  /* line 3370, ../sass/screen.scss */
+  /* line 3374, ../sass/screen.scss */
   .head .logo img {
     width: 100%;
   }
-  /* line 3374, ../sass/screen.scss */
+  /* line 3378, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 300px;
   }
-  /* line 3376, ../sass/screen.scss */
+  /* line 3380, ../sass/screen.scss */
   .head .mid-row p {
     font-size: 17px;
     line-height: 19px;
@@ -3894,7 +3899,7 @@ body .docSmart {
     left: -10px;
     font-weight: 300;
   }
-  /* line 3383, ../sass/screen.scss */
+  /* line 3387, ../sass/screen.scss */
   .head .mid-row p span {
     font-weight: 400;
     letter-spacing: 0.3px;
@@ -3903,15 +3908,15 @@ body .docSmart {
     letter-spacing: .5px;
     display: inline-block;
   }
-  /* line 3391, ../sass/screen.scss */
+  /* line 3395, ../sass/screen.scss */
   .head .mid-row p .bottom_span {
     width: 140px;
   }
-  /* line 3396, ../sass/screen.scss */
+  /* line 3400, ../sass/screen.scss */
   .head .mid-row-eng {
     padding-bottom: 400px;
   }
-  /* line 3400, ../sass/screen.scss */
+  /* line 3404, ../sass/screen.scss */
   .head .mob-nav .close-menu {
     position: absolute;
     top: 0px;
@@ -3919,13 +3924,13 @@ body .docSmart {
     font-size: 23px;
   }
 
-  /* line 3408, ../sass/screen.scss */
+  /* line 3412, ../sass/screen.scss */
   .obzor {
     font-family: 'PF DinDisplay Pro';
     display: flex;
     flex-direction: column-reverse;
   }
-  /* line 3412, ../sass/screen.scss */
+  /* line 3416, ../sass/screen.scss */
   .obzor h4 {
     position: unset;
     text-align: center;
@@ -3935,7 +3940,7 @@ body .docSmart {
     padding-top: 30px;
     letter-spacing: 0.7px;
   }
-  /* line 3421, ../sass/screen.scss */
+  /* line 3425, ../sass/screen.scss */
   .obzor p {
     font-family: 'PF DinDisplay Pro';
     position: unset;
@@ -3945,48 +3950,48 @@ body .docSmart {
     line-height: 21px;
     letter-spacing: 0.6px;
   }
-  /* line 3430, ../sass/screen.scss */
+  /* line 3434, ../sass/screen.scss */
   .obzor span {
     font-size: 14px;
   }
-  /* line 3433, ../sass/screen.scss */
+  /* line 3437, ../sass/screen.scss */
   .obzor .grandview {
     padding-top: 0px;
   }
-  /* line 3436, ../sass/screen.scss */
+  /* line 3440, ../sass/screen.scss */
   .obzor .ist-world-bank {
     font-size: 16px;
     right: 10px;
   }
-  /* line 3440, ../sass/screen.scss */
+  /* line 3444, ../sass/screen.scss */
   .obzor .left-col {
     padding-bottom: 60px;
   }
-  /* line 3442, ../sass/screen.scss */
+  /* line 3446, ../sass/screen.scss */
   .obzor .left-col .usd-val {
     position: unset;
   }
-  /* line 3445, ../sass/screen.scss */
+  /* line 3449, ../sass/screen.scss */
   .obzor .left-col .img-responsive {
     position: unset;
   }
-  /* line 3448, ../sass/screen.scss */
+  /* line 3452, ../sass/screen.scss */
   .obzor .left-col span {
     position: unset;
   }
 
-  /* line 3453, ../sass/screen.scss */
+  /* line 3457, ../sass/screen.scss */
   .work {
     background-position: -280px 0px;
   }
-  /* line 3457, ../sass/screen.scss */
+  /* line 3461, ../sass/screen.scss */
   .work h3 {
     font-size: 30px;
     padding-top: 25px;
     position: unset;
     padding-bottom: 25px;
   }
-  /* line 3463, ../sass/screen.scss */
+  /* line 3467, ../sass/screen.scss */
   .work p {
     padding-bottom: 40px;
     line-height: 20px;
@@ -3997,37 +4002,37 @@ body .docSmart {
     letter-spacing: .3px;
     font-weight: 100;
   }
-  /* line 3473, ../sass/screen.scss */
+  /* line 3477, ../sass/screen.scss */
   .work .box {
     position: unset;
     margin-bottom: 40px;
   }
-  /* line 3476, ../sass/screen.scss */
+  /* line 3480, ../sass/screen.scss */
   .work .box .desc {
     display: none;
     background-color: transparent;
     font-size: 16px;
     color: #fff;
   }
-  /* line 3483, ../sass/screen.scss */
+  /* line 3487, ../sass/screen.scss */
   .work .box:hover .desc {
     display: none;
   }
-  /* line 3487, ../sass/screen.scss */
+  /* line 3491, ../sass/screen.scss */
   .work .box p {
     display: none;
   }
-  /* line 3490, ../sass/screen.scss */
+  /* line 3494, ../sass/screen.scss */
   .work .box .mob-view {
     display: block;
   }
-  /* line 3492, ../sass/screen.scss */
+  /* line 3496, ../sass/screen.scss */
   .work .box .mob-view h5 {
     font-size: 20px;
     padding-top: 0;
     padding-bottom: 20px;
   }
-  /* line 3498, ../sass/screen.scss */
+  /* line 3502, ../sass/screen.scss */
   .work .box .mob-view span {
     display: inline-block;
     padding-right: 0;
@@ -4037,7 +4042,7 @@ body .docSmart {
     letter-spacing: .4px;
     font-weight: 200;
   }
-  /* line 3509, ../sass/screen.scss */
+  /* line 3513, ../sass/screen.scss */
   .work .box img {
     width: 120px;
     height: 120px;
@@ -4046,7 +4051,7 @@ body .docSmart {
     margin-bottom: 20px;
   }
 
-  /* line 3519, ../sass/screen.scss */
+  /* line 3523, ../sass/screen.scss */
   .garant h3 {
     font-size: 30px;
     padding-bottom: 10px;
@@ -4054,7 +4059,7 @@ body .docSmart {
     position: unset;
     font-weight: 100;
   }
-  /* line 3526, ../sass/screen.scss */
+  /* line 3530, ../sass/screen.scss */
   .garant p {
     font-size: 20px;
     text-align: left;
@@ -4064,41 +4069,41 @@ body .docSmart {
     letter-spacing: 0.3px;
     position: unset;
   }
-  /* line 3535, ../sass/screen.scss */
+  /* line 3539, ../sass/screen.scss */
   .garant p.serts_head {
     position: unset;
     margin-bottom: 20px;
     font-weight: 400;
   }
-  /* line 3540, ../sass/screen.scss */
+  /* line 3544, ../sass/screen.scss */
   .garant .sert {
     display: flex;
     flex-wrap: wrap;
     position: unset;
     margin-bottom: 40px;
   }
-  /* line 3545, ../sass/screen.scss */
+  /* line 3549, ../sass/screen.scss */
   .garant .sert img {
     margin-bottom: 35px;
   }
-  /* line 3548, ../sass/screen.scss */
+  /* line 3552, ../sass/screen.scss */
   .garant .sert .sert1 {
     width: 85px;
   }
-  /* line 3551, ../sass/screen.scss */
+  /* line 3555, ../sass/screen.scss */
   .garant .sert .sert2 {
     width: 90px;
   }
-  /* line 3554, ../sass/screen.scss */
+  /* line 3558, ../sass/screen.scss */
   .garant .sert .sert3, .garant .sert .sert5 {
     width: 130px;
   }
-  /* line 3557, ../sass/screen.scss */
+  /* line 3561, ../sass/screen.scss */
   .garant .sert .sert4 {
     width: 85px;
   }
 
-  /* line 3563, ../sass/screen.scss */
+  /* line 3567, ../sass/screen.scss */
   .service h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -4107,7 +4112,7 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.6px;
   }
-  /* line 3571, ../sass/screen.scss */
+  /* line 3575, ../sass/screen.scss */
   .service p {
     font-size: 20px;
     font-weight: 100;
@@ -4118,26 +4123,26 @@ body .docSmart {
     padding-left: 15px;
     padding-right: 5px;
   }
-  /* line 3581, ../sass/screen.scss */
+  /* line 3585, ../sass/screen.scss */
   .service .box {
     position: unset;
     text-align: center;
     margin-bottom: 60px;
     padding-left: 15px;
   }
-  /* line 3587, ../sass/screen.scss */
+  /* line 3591, ../sass/screen.scss */
   .service .box:hover .desc {
     display: none;
   }
-  /* line 3591, ../sass/screen.scss */
+  /* line 3595, ../sass/screen.scss */
   .service .box p {
     display: none;
   }
-  /* line 3594, ../sass/screen.scss */
+  /* line 3598, ../sass/screen.scss */
   .service .box .mob-view {
     display: block;
   }
-  /* line 3596, ../sass/screen.scss */
+  /* line 3600, ../sass/screen.scss */
   .service .box .mob-view h5 {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -4147,7 +4152,7 @@ body .docSmart {
     font-weight: 300;
     letter-spacing: 0.6px;
   }
-  /* line 3604, ../sass/screen.scss */
+  /* line 3608, ../sass/screen.scss */
   .service .box .mob-view span {
     font-weight: 100;
     line-height: 21px;
@@ -4157,37 +4162,37 @@ body .docSmart {
     letter-spacing: 0.2px;
     line-height: 21px;
   }
-  /* line 3614, ../sass/screen.scss */
+  /* line 3618, ../sass/screen.scss */
   .service .box img {
     width: 120px;
     height: 120px;
     margin-right: 0px;
   }
-  /* line 3620, ../sass/screen.scss */
+  /* line 3624, ../sass/screen.scss */
   .service .overlay1 {
     background-position: -1275px 0;
   }
-  /* line 3623, ../sass/screen.scss */
+  /* line 3627, ../sass/screen.scss */
   .service .first_box {
     position: unset;
   }
 
-  /* line 3627, ../sass/screen.scss */
+  /* line 3631, ../sass/screen.scss */
   .proect_creator {
     padding-bottom: 0;
   }
-  /* line 3629, ../sass/screen.scss */
+  /* line 3633, ../sass/screen.scss */
   .proect_creator h3 {
     padding-top: 25px;
     padding-bottom: 0;
     font-size: 30px;
     margin-left: 0;
   }
-  /* line 3635, ../sass/screen.scss */
+  /* line 3639, ../sass/screen.scss */
   .proect_creator .box {
     left: 0;
   }
-  /* line 3637, ../sass/screen.scss */
+  /* line 3641, ../sass/screen.scss */
   .proect_creator .box .desc {
     display: block;
     position: unset;
@@ -4195,52 +4200,52 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 3643, ../sass/screen.scss */
+  /* line 3647, ../sass/screen.scss */
   .proect_creator .box .desc span {
     font-weight: 100;
     line-height: 23px;
     padding: 20px 5px 21px;
     font-size: 20px;
   }
-  /* line 3649, ../sass/screen.scss */
+  /* line 3653, ../sass/screen.scss */
   .proect_creator .box .desc h5 {
     display: none;
   }
-  /* line 3652, ../sass/screen.scss */
+  /* line 3656, ../sass/screen.scss */
   .proect_creator .box .desc .right_doc {
     padding-bottom: 60px;
   }
-  /* line 3656, ../sass/screen.scss */
+  /* line 3660, ../sass/screen.scss */
   .proect_creator .box p {
     position: unset;
     font-size: 20px;
     line-height: 21px;
     padding-bottom: 0;
   }
-  /* line 3663, ../sass/screen.scss */
+  /* line 3667, ../sass/screen.scss */
   .proect_creator .round1, .proect_creator .round2 {
     position: unset;
   }
 
-  /* line 3668, ../sass/screen.scss */
+  /* line 3672, ../sass/screen.scss */
   .team h3 {
     padding-top: 25px;
     font-size: 30px;
   }
-  /* line 3672, ../sass/screen.scss */
+  /* line 3676, ../sass/screen.scss */
   .team h4 {
     padding-bottom: 40px;
     font-size: 24px;
   }
-  /* line 3676, ../sass/screen.scss */
+  /* line 3680, ../sass/screen.scss */
   .team .top-row {
     border: none;
   }
-  /* line 3679, ../sass/screen.scss */
+  /* line 3683, ../sass/screen.scss */
   .team .box {
     left: 0;
   }
-  /* line 3681, ../sass/screen.scss */
+  /* line 3685, ../sass/screen.scss */
   .team .box .desc {
     display: block;
     position: unset;
@@ -4248,7 +4253,7 @@ body .docSmart {
     font-size: 18px;
     color: #505050;
   }
-  /* line 3687, ../sass/screen.scss */
+  /* line 3691, ../sass/screen.scss */
   .team .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -4256,36 +4261,36 @@ body .docSmart {
     font-size: 20px;
     letter-spacing: .5px;
   }
-  /* line 3694, ../sass/screen.scss */
+  /* line 3698, ../sass/screen.scss */
   .team .box .desc h5 {
     display: none;
   }
-  /* line 3698, ../sass/screen.scss */
+  /* line 3702, ../sass/screen.scss */
   .team .box p {
     position: unset;
     font-weight: 300;
     font-size: 20px;
   }
-  /* line 3704, ../sass/screen.scss */
+  /* line 3708, ../sass/screen.scss */
   .team .box1, .team .box2, .team .box3, .team .box4 {
     padding-bottom: 30px;
     padding-top: 30px;
     border: none;
   }
-  /* line 3708, ../sass/screen.scss */
+  /* line 3712, ../sass/screen.scss */
   .team .box1 p, .team .box2 p, .team .box3 p, .team .box4 p {
     margin-left: 0;
   }
-  /* line 3712, ../sass/screen.scss */
+  /* line 3716, ../sass/screen.scss */
   .team .round2 {
     position: unset;
   }
-  /* line 3715, ../sass/screen.scss */
+  /* line 3719, ../sass/screen.scss */
   .team .round4 {
     position: unset;
   }
 
-  /* line 3720, ../sass/screen.scss */
+  /* line 3724, ../sass/screen.scss */
   .edviser h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -4295,7 +4300,7 @@ body .docSmart {
     margin-bottom: 5px;
     letter-spacing: .5px;
   }
-  /* line 3729, ../sass/screen.scss */
+  /* line 3733, ../sass/screen.scss */
   .edviser h4 {
     font-weight: 100;
     padding-bottom: 40px;
@@ -4304,23 +4309,23 @@ body .docSmart {
     margin-left: 0;
     position: unset;
   }
-  /* line 3737, ../sass/screen.scss */
+  /* line 3741, ../sass/screen.scss */
   .edviser p {
     font-size: 20px;
   }
-  /* line 3740, ../sass/screen.scss */
+  /* line 3744, ../sass/screen.scss */
   .edviser .top-row {
     border: none;
   }
-  /* line 3743, ../sass/screen.scss */
+  /* line 3747, ../sass/screen.scss */
   .edviser .bottom-row_2 {
     border: none;
   }
-  /* line 3746, ../sass/screen.scss */
+  /* line 3750, ../sass/screen.scss */
   .edviser .box {
     left: 0;
   }
-  /* line 3748, ../sass/screen.scss */
+  /* line 3752, ../sass/screen.scss */
   .edviser .box .desc {
     display: block;
     position: unset;
@@ -4328,7 +4333,7 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 3754, ../sass/screen.scss */
+  /* line 3758, ../sass/screen.scss */
   .edviser .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -4336,32 +4341,32 @@ body .docSmart {
     letter-spacing: 0.5px;
     padding: 20px 0px 25px;
   }
-  /* line 3761, ../sass/screen.scss */
+  /* line 3765, ../sass/screen.scss */
   .edviser .box .desc h5 {
     display: none;
   }
-  /* line 3765, ../sass/screen.scss */
+  /* line 3769, ../sass/screen.scss */
   .edviser .box p {
     position: unset;
     margin-left: 0;
     position: unset;
   }
-  /* line 3771, ../sass/screen.scss */
+  /* line 3775, ../sass/screen.scss */
   .edviser .box1, .edviser .box3, .edviser .box2, .edviser .box4, .edviser .box5 {
     border: none;
     padding-bottom: 0px;
     padding-top: 30px;
   }
-  /* line 3776, ../sass/screen.scss */
+  /* line 3780, ../sass/screen.scss */
   .edviser .round {
     position: unset;
   }
 
-  /* line 3781, ../sass/screen.scss */
+  /* line 3785, ../sass/screen.scss */
   .welcome .flex-row {
     padding: 0;
   }
-  /* line 3784, ../sass/screen.scss */
+  /* line 3788, ../sass/screen.scss */
   .welcome .left-box {
     position: unset;
     background-image: url(../img/bottom-doctor.jpg);
@@ -4370,14 +4375,14 @@ body .docSmart {
     background-position: 100px 0px;
     margin-bottom: 110px;
   }
-  /* line 3792, ../sass/screen.scss */
+  /* line 3796, ../sass/screen.scss */
   .welcome .right-box {
     position: unset;
     text-align: center;
     margin-top: -80px;
     margin-bottom: 20px;
   }
-  /* line 3797, ../sass/screen.scss */
+  /* line 3801, ../sass/screen.scss */
   .welcome .right-box .send {
     position: unset;
     padding: 10px 40px;
@@ -4385,11 +4390,11 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.8px;
   }
-  /* line 3805, ../sass/screen.scss */
+  /* line 3809, ../sass/screen.scss */
   .welcome .img-responsive {
     display: none;
   }
-  /* line 3808, ../sass/screen.scss */
+  /* line 3812, ../sass/screen.scss */
   .welcome h4 {
     display: inline-block;
     padding-left: 20px;
@@ -4401,14 +4406,14 @@ body .docSmart {
     letter-spacing: 0.6px;
     width: 180px;
   }
-  /* line 3819, ../sass/screen.scss */
+  /* line 3823, ../sass/screen.scss */
   .welcome p {
     font-size: 20px;
     line-height: 20px;
     padding-left: 7%;
   }
 
-  /* line 3826, ../sass/screen.scss */
+  /* line 3830, ../sass/screen.scss */
   .footer h4 {
     position: unset;
     font-size: 30px;
@@ -4416,103 +4421,103 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.7px;
   }
-  /* line 3833, ../sass/screen.scss */
+  /* line 3837, ../sass/screen.scss */
   .footer span {
     position: unset;
     padding-bottom: 10px;
     font-size: 20px;
   }
-  /* line 3839, ../sass/screen.scss */
+  /* line 3843, ../sass/screen.scss */
   .footer .contacts li {
     float: none;
     margin-right: 0;
     padding-bottom: 45px;
   }
-  /* line 3845, ../sass/screen.scss */
+  /* line 3849, ../sass/screen.scss */
   .footer .social_icons {
     padding-top: 30px;
     display: flex;
     justify-content: space-around;
     border-top: 1px solid #fff;
   }
-  /* line 3850, ../sass/screen.scss */
+  /* line 3854, ../sass/screen.scss */
   .footer .social_icons li {
     margin-right: 0px;
   }
 }
 @media (min-width: 320px) and (max-width: 359px) {
-  /* line 3857, ../sass/screen.scss */
+  /* line 3861, ../sass/screen.scss */
   .mfp-close-btn-in .mfp-close {
     top: 0px;
     right: 5px;
   }
 
-  /* line 3861, ../sass/screen.scss */
+  /* line 3865, ../sass/screen.scss */
   #form1 {
     max-width: 300px;
     padding: 15px;
   }
-  /* line 3864, ../sass/screen.scss */
+  /* line 3868, ../sass/screen.scss */
   #form1 h3 {
     font-size: 22px;
     color: #73d0d5;
     padding-top: 20px;
     padding-bottom: 30px;
   }
-  /* line 3870, ../sass/screen.scss */
+  /* line 3874, ../sass/screen.scss */
   #form1 input {
     margin-bottom: 20px;
     padding: 5px 15px;
     font-size: 18px;
   }
-  /* line 3875, ../sass/screen.scss */
+  /* line 3879, ../sass/screen.scss */
   #form1 textarea {
     height: 90px;
     font-size: 20px;
   }
-  /* line 3879, ../sass/screen.scss */
+  /* line 3883, ../sass/screen.scss */
   #form1 .send_massage_btn {
     font-size: 20px;
     padding: 10px 30px;
     margin-bottom: 20px;
   }
 
-  /* line 3886, ../sass/screen.scss */
+  /* line 3890, ../sass/screen.scss */
   .head .overlay {
     background-position: -1040px 245px;
   }
-  /* line 3889, ../sass/screen.scss */
+  /* line 3893, ../sass/screen.scss */
   .head nav {
     margin-top: 15px;
   }
-  /* line 3891, ../sass/screen.scss */
+  /* line 3895, ../sass/screen.scss */
   .head nav .menu {
     display: none;
   }
-  /* line 3894, ../sass/screen.scss */
+  /* line 3898, ../sass/screen.scss */
   .head nav .lang {
     display: none;
   }
-  /* line 3897, ../sass/screen.scss */
+  /* line 3901, ../sass/screen.scss */
   .head nav .mob_burger {
     z-index: 99999999;
   }
-  /* line 3901, ../sass/screen.scss */
+  /* line 3905, ../sass/screen.scss */
   .head .logo {
     width: 170px;
     height: 90px;
     margin: 0 auto;
     margin-top: -50px;
   }
-  /* line 3906, ../sass/screen.scss */
+  /* line 3910, ../sass/screen.scss */
   .head .logo img {
     width: 100%;
   }
-  /* line 3910, ../sass/screen.scss */
+  /* line 3914, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 300px;
   }
-  /* line 3912, ../sass/screen.scss */
+  /* line 3916, ../sass/screen.scss */
   .head .mid-row p {
     font-size: 17px;
     line-height: 19px;
@@ -4521,7 +4526,7 @@ body .docSmart {
     left: -10px;
     font-weight: 300;
   }
-  /* line 3919, ../sass/screen.scss */
+  /* line 3923, ../sass/screen.scss */
   .head .mid-row p span {
     font-weight: 400;
     letter-spacing: 0.3px;
@@ -4530,15 +4535,15 @@ body .docSmart {
     letter-spacing: .5px;
     display: inline-block;
   }
-  /* line 3927, ../sass/screen.scss */
+  /* line 3931, ../sass/screen.scss */
   .head .mid-row p .bottom_span {
     width: 140px;
   }
-  /* line 3932, ../sass/screen.scss */
+  /* line 3936, ../sass/screen.scss */
   .head .mid-row-eng {
     padding-bottom: 400px;
   }
-  /* line 3936, ../sass/screen.scss */
+  /* line 3940, ../sass/screen.scss */
   .head .mob-nav .close-menu {
     position: absolute;
     top: 0px;
@@ -4546,13 +4551,13 @@ body .docSmart {
     font-size: 23px;
   }
 
-  /* line 3944, ../sass/screen.scss */
+  /* line 3948, ../sass/screen.scss */
   .obzor {
     font-family: 'PF DinDisplay Pro';
     display: flex;
     flex-direction: column-reverse;
   }
-  /* line 3948, ../sass/screen.scss */
+  /* line 3952, ../sass/screen.scss */
   .obzor h4 {
     position: unset;
     text-align: center;
@@ -4562,7 +4567,7 @@ body .docSmart {
     padding-top: 30px;
     letter-spacing: 0.7px;
   }
-  /* line 3957, ../sass/screen.scss */
+  /* line 3961, ../sass/screen.scss */
   .obzor p {
     font-family: 'PF DinDisplay Pro';
     position: unset;
@@ -4572,53 +4577,53 @@ body .docSmart {
     line-height: 21px;
     letter-spacing: 0.6px;
   }
-  /* line 3966, ../sass/screen.scss */
+  /* line 3970, ../sass/screen.scss */
   .obzor span {
     padding-top: 0;
     font-size: 16px;
   }
-  /* line 3970, ../sass/screen.scss */
+  /* line 3974, ../sass/screen.scss */
   .obzor .docSmart {
     font-size: 16px;
   }
-  /* line 3973, ../sass/screen.scss */
+  /* line 3977, ../sass/screen.scss */
   .obzor .grandview {
     padding-top: 0px;
   }
-  /* line 3976, ../sass/screen.scss */
+  /* line 3980, ../sass/screen.scss */
   .obzor .ist-world-bank {
     font-size: 16px;
     right: 10px;
   }
-  /* line 3980, ../sass/screen.scss */
+  /* line 3984, ../sass/screen.scss */
   .obzor .left-col {
     padding-bottom: 60px;
   }
-  /* line 3982, ../sass/screen.scss */
+  /* line 3986, ../sass/screen.scss */
   .obzor .left-col .usd-val {
     position: unset;
   }
-  /* line 3985, ../sass/screen.scss */
+  /* line 3989, ../sass/screen.scss */
   .obzor .left-col .img-responsive {
     position: unset;
   }
-  /* line 3988, ../sass/screen.scss */
+  /* line 3992, ../sass/screen.scss */
   .obzor .left-col span {
     position: unset;
   }
 
-  /* line 3993, ../sass/screen.scss */
+  /* line 3997, ../sass/screen.scss */
   .work {
     background-position: -280px 0px;
   }
-  /* line 3997, ../sass/screen.scss */
+  /* line 4001, ../sass/screen.scss */
   .work h3 {
     font-size: 30px;
     padding-top: 25px;
     position: unset;
     padding-bottom: 25px;
   }
-  /* line 4003, ../sass/screen.scss */
+  /* line 4007, ../sass/screen.scss */
   .work p {
     padding-bottom: 40px;
     line-height: 20px;
@@ -4629,37 +4634,37 @@ body .docSmart {
     letter-spacing: .3px;
     font-weight: 100;
   }
-  /* line 4013, ../sass/screen.scss */
+  /* line 4017, ../sass/screen.scss */
   .work .box {
     position: unset;
     margin-bottom: 40px;
   }
-  /* line 4016, ../sass/screen.scss */
+  /* line 4020, ../sass/screen.scss */
   .work .box .desc {
     display: none;
     background-color: transparent;
     font-size: 16px;
     color: #fff;
   }
-  /* line 4023, ../sass/screen.scss */
+  /* line 4027, ../sass/screen.scss */
   .work .box:hover .desc {
     display: none;
   }
-  /* line 4027, ../sass/screen.scss */
+  /* line 4031, ../sass/screen.scss */
   .work .box p {
     display: none;
   }
-  /* line 4030, ../sass/screen.scss */
+  /* line 4034, ../sass/screen.scss */
   .work .box .mob-view {
     display: block;
   }
-  /* line 4032, ../sass/screen.scss */
+  /* line 4036, ../sass/screen.scss */
   .work .box .mob-view h5 {
     font-size: 20px;
     padding-top: 0;
     padding-bottom: 20px;
   }
-  /* line 4038, ../sass/screen.scss */
+  /* line 4042, ../sass/screen.scss */
   .work .box .mob-view span {
     display: inline-block;
     padding-right: 0;
@@ -4669,7 +4674,7 @@ body .docSmart {
     letter-spacing: .4px;
     font-weight: 200;
   }
-  /* line 4049, ../sass/screen.scss */
+  /* line 4053, ../sass/screen.scss */
   .work .box img {
     width: 120px;
     height: 120px;
@@ -4678,7 +4683,7 @@ body .docSmart {
     margin-bottom: 20px;
   }
 
-  /* line 4059, ../sass/screen.scss */
+  /* line 4063, ../sass/screen.scss */
   .garant h3 {
     font-size: 30px;
     padding-bottom: 10px;
@@ -4686,7 +4691,7 @@ body .docSmart {
     position: unset;
     font-weight: 100;
   }
-  /* line 4066, ../sass/screen.scss */
+  /* line 4070, ../sass/screen.scss */
   .garant p {
     font-size: 20px;
     text-align: left;
@@ -4696,41 +4701,41 @@ body .docSmart {
     letter-spacing: 0.3px;
     position: unset;
   }
-  /* line 4075, ../sass/screen.scss */
+  /* line 4079, ../sass/screen.scss */
   .garant p.serts_head {
     position: unset;
     margin-bottom: 20px;
     font-weight: 400;
   }
-  /* line 4080, ../sass/screen.scss */
+  /* line 4084, ../sass/screen.scss */
   .garant .sert {
     display: flex;
     flex-wrap: wrap;
     position: unset;
     margin-bottom: 40px;
   }
-  /* line 4085, ../sass/screen.scss */
+  /* line 4089, ../sass/screen.scss */
   .garant .sert img {
     margin-bottom: 35px;
   }
-  /* line 4088, ../sass/screen.scss */
+  /* line 4092, ../sass/screen.scss */
   .garant .sert .sert1 {
     width: 85px;
   }
-  /* line 4091, ../sass/screen.scss */
+  /* line 4095, ../sass/screen.scss */
   .garant .sert .sert2 {
     width: 90px;
   }
-  /* line 4094, ../sass/screen.scss */
+  /* line 4098, ../sass/screen.scss */
   .garant .sert .sert3, .garant .sert .sert5 {
     width: 130px;
   }
-  /* line 4097, ../sass/screen.scss */
+  /* line 4101, ../sass/screen.scss */
   .garant .sert .sert4 {
     width: 85px;
   }
 
-  /* line 4103, ../sass/screen.scss */
+  /* line 4107, ../sass/screen.scss */
   .service h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -4739,7 +4744,7 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.6px;
   }
-  /* line 4111, ../sass/screen.scss */
+  /* line 4115, ../sass/screen.scss */
   .service p {
     font-size: 20px;
     font-weight: 100;
@@ -4750,26 +4755,26 @@ body .docSmart {
     padding-left: 15px;
     padding-right: 5px;
   }
-  /* line 4121, ../sass/screen.scss */
+  /* line 4125, ../sass/screen.scss */
   .service .box {
     position: unset;
     text-align: center;
     margin-bottom: 60px;
     padding-left: 15px;
   }
-  /* line 4127, ../sass/screen.scss */
+  /* line 4131, ../sass/screen.scss */
   .service .box:hover .desc {
     display: none;
   }
-  /* line 4131, ../sass/screen.scss */
+  /* line 4135, ../sass/screen.scss */
   .service .box p {
     display: none;
   }
-  /* line 4134, ../sass/screen.scss */
+  /* line 4138, ../sass/screen.scss */
   .service .box .mob-view {
     display: block;
   }
-  /* line 4136, ../sass/screen.scss */
+  /* line 4140, ../sass/screen.scss */
   .service .box .mob-view h5 {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -4779,7 +4784,7 @@ body .docSmart {
     font-weight: 300;
     letter-spacing: 0.6px;
   }
-  /* line 4144, ../sass/screen.scss */
+  /* line 4148, ../sass/screen.scss */
   .service .box .mob-view span {
     font-weight: 100;
     line-height: 21px;
@@ -4789,37 +4794,37 @@ body .docSmart {
     letter-spacing: 0.2px;
     line-height: 21px;
   }
-  /* line 4154, ../sass/screen.scss */
+  /* line 4158, ../sass/screen.scss */
   .service .box img {
     width: 120px;
     height: 120px;
     margin-right: 0px;
   }
-  /* line 4160, ../sass/screen.scss */
+  /* line 4164, ../sass/screen.scss */
   .service .overlay1 {
     background-position: -1275px 0;
   }
-  /* line 4163, ../sass/screen.scss */
+  /* line 4167, ../sass/screen.scss */
   .service .first_box {
     position: unset;
   }
 
-  /* line 4167, ../sass/screen.scss */
+  /* line 4171, ../sass/screen.scss */
   .proect_creator {
     padding-bottom: 0;
   }
-  /* line 4169, ../sass/screen.scss */
+  /* line 4173, ../sass/screen.scss */
   .proect_creator h3 {
     padding-top: 25px;
     padding-bottom: 0;
     font-size: 30px;
     margin-left: 0;
   }
-  /* line 4175, ../sass/screen.scss */
+  /* line 4179, ../sass/screen.scss */
   .proect_creator .box {
     left: 0;
   }
-  /* line 4177, ../sass/screen.scss */
+  /* line 4181, ../sass/screen.scss */
   .proect_creator .box .desc {
     display: block;
     position: unset;
@@ -4827,52 +4832,52 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 4183, ../sass/screen.scss */
+  /* line 4187, ../sass/screen.scss */
   .proect_creator .box .desc span {
     font-weight: 100;
     line-height: 23px;
     padding: 20px 5px 21px;
     font-size: 20px;
   }
-  /* line 4189, ../sass/screen.scss */
+  /* line 4193, ../sass/screen.scss */
   .proect_creator .box .desc h5 {
     display: none;
   }
-  /* line 4192, ../sass/screen.scss */
+  /* line 4196, ../sass/screen.scss */
   .proect_creator .box .desc .right_doc {
     padding-bottom: 60px;
   }
-  /* line 4196, ../sass/screen.scss */
+  /* line 4200, ../sass/screen.scss */
   .proect_creator .box p {
     position: unset;
     font-size: 20px;
     line-height: 21px;
     padding-bottom: 0;
   }
-  /* line 4203, ../sass/screen.scss */
+  /* line 4207, ../sass/screen.scss */
   .proect_creator .round1, .proect_creator .round2 {
     position: unset;
   }
 
-  /* line 4208, ../sass/screen.scss */
+  /* line 4212, ../sass/screen.scss */
   .team h3 {
     padding-top: 25px;
     font-size: 30px;
   }
-  /* line 4212, ../sass/screen.scss */
+  /* line 4216, ../sass/screen.scss */
   .team h4 {
     padding-bottom: 40px;
     font-size: 24px;
   }
-  /* line 4216, ../sass/screen.scss */
+  /* line 4220, ../sass/screen.scss */
   .team .top-row {
     border: none;
   }
-  /* line 4219, ../sass/screen.scss */
+  /* line 4223, ../sass/screen.scss */
   .team .box {
     left: 0;
   }
-  /* line 4221, ../sass/screen.scss */
+  /* line 4225, ../sass/screen.scss */
   .team .box .desc {
     display: block;
     position: unset;
@@ -4880,7 +4885,7 @@ body .docSmart {
     font-size: 18px;
     color: #505050;
   }
-  /* line 4227, ../sass/screen.scss */
+  /* line 4231, ../sass/screen.scss */
   .team .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -4888,36 +4893,36 @@ body .docSmart {
     font-size: 20px;
     letter-spacing: .5px;
   }
-  /* line 4234, ../sass/screen.scss */
+  /* line 4238, ../sass/screen.scss */
   .team .box .desc h5 {
     display: none;
   }
-  /* line 4238, ../sass/screen.scss */
+  /* line 4242, ../sass/screen.scss */
   .team .box p {
     position: unset;
     font-weight: 300;
     font-size: 20px;
   }
-  /* line 4244, ../sass/screen.scss */
+  /* line 4248, ../sass/screen.scss */
   .team .box1, .team .box2, .team .box3, .team .box4 {
     padding-bottom: 30px;
     padding-top: 30px;
     border: none;
   }
-  /* line 4248, ../sass/screen.scss */
+  /* line 4252, ../sass/screen.scss */
   .team .box1 p, .team .box2 p, .team .box3 p, .team .box4 p {
     margin-left: 0;
   }
-  /* line 4252, ../sass/screen.scss */
+  /* line 4256, ../sass/screen.scss */
   .team .round2 {
     position: unset;
   }
-  /* line 4255, ../sass/screen.scss */
+  /* line 4259, ../sass/screen.scss */
   .team .round4 {
     position: unset;
   }
 
-  /* line 4260, ../sass/screen.scss */
+  /* line 4264, ../sass/screen.scss */
   .edviser h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -4927,7 +4932,7 @@ body .docSmart {
     margin-bottom: 5px;
     letter-spacing: .5px;
   }
-  /* line 4269, ../sass/screen.scss */
+  /* line 4273, ../sass/screen.scss */
   .edviser h4 {
     font-weight: 100;
     padding-bottom: 40px;
@@ -4936,23 +4941,23 @@ body .docSmart {
     margin-left: 0;
     position: unset;
   }
-  /* line 4277, ../sass/screen.scss */
+  /* line 4281, ../sass/screen.scss */
   .edviser p {
     font-size: 20px;
   }
-  /* line 4280, ../sass/screen.scss */
+  /* line 4284, ../sass/screen.scss */
   .edviser .top-row {
     border: none;
   }
-  /* line 4283, ../sass/screen.scss */
+  /* line 4287, ../sass/screen.scss */
   .edviser .bottom-row_2 {
     border: none;
   }
-  /* line 4286, ../sass/screen.scss */
+  /* line 4290, ../sass/screen.scss */
   .edviser .box {
     left: 0;
   }
-  /* line 4288, ../sass/screen.scss */
+  /* line 4292, ../sass/screen.scss */
   .edviser .box .desc {
     display: block;
     position: unset;
@@ -4960,7 +4965,7 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 4294, ../sass/screen.scss */
+  /* line 4298, ../sass/screen.scss */
   .edviser .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -4968,32 +4973,32 @@ body .docSmart {
     letter-spacing: 0.5px;
     padding: 20px 0px 25px;
   }
-  /* line 4301, ../sass/screen.scss */
+  /* line 4305, ../sass/screen.scss */
   .edviser .box .desc h5 {
     display: none;
   }
-  /* line 4305, ../sass/screen.scss */
+  /* line 4309, ../sass/screen.scss */
   .edviser .box p {
     position: unset;
     margin-left: 0;
     position: unset;
   }
-  /* line 4311, ../sass/screen.scss */
+  /* line 4315, ../sass/screen.scss */
   .edviser .box1, .edviser .box3, .edviser .box2, .edviser .box4, .edviser .box5 {
     border: none;
     padding-bottom: 0px;
     padding-top: 30px;
   }
-  /* line 4316, ../sass/screen.scss */
+  /* line 4320, ../sass/screen.scss */
   .edviser .round {
     position: unset;
   }
 
-  /* line 4321, ../sass/screen.scss */
+  /* line 4325, ../sass/screen.scss */
   .welcome .flex-row {
     padding: 0;
   }
-  /* line 4324, ../sass/screen.scss */
+  /* line 4328, ../sass/screen.scss */
   .welcome .left-box {
     position: unset;
     background-image: url(../img/bottom-doctor.jpg);
@@ -5002,14 +5007,14 @@ body .docSmart {
     background-position: 100px 0px;
     margin-bottom: 110px;
   }
-  /* line 4332, ../sass/screen.scss */
+  /* line 4336, ../sass/screen.scss */
   .welcome .right-box {
     position: unset;
     text-align: center;
     margin-top: -80px;
     margin-bottom: 20px;
   }
-  /* line 4337, ../sass/screen.scss */
+  /* line 4341, ../sass/screen.scss */
   .welcome .right-box .send {
     position: unset;
     padding: 10px 40px;
@@ -5017,11 +5022,11 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.8px;
   }
-  /* line 4345, ../sass/screen.scss */
+  /* line 4349, ../sass/screen.scss */
   .welcome .img-responsive {
     display: none;
   }
-  /* line 4348, ../sass/screen.scss */
+  /* line 4352, ../sass/screen.scss */
   .welcome h4 {
     display: inline-block;
     padding-left: 20px;
@@ -5033,14 +5038,14 @@ body .docSmart {
     letter-spacing: 0.6px;
     width: 180px;
   }
-  /* line 4359, ../sass/screen.scss */
+  /* line 4363, ../sass/screen.scss */
   .welcome p {
     font-size: 20px;
     line-height: 20px;
     padding-left: 7%;
   }
 
-  /* line 4366, ../sass/screen.scss */
+  /* line 4370, ../sass/screen.scss */
   .footer h4 {
     position: unset;
     font-size: 30px;
@@ -5048,33 +5053,49 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.7px;
   }
-  /* line 4373, ../sass/screen.scss */
+  /* line 4377, ../sass/screen.scss */
   .footer span {
     position: unset;
     padding-bottom: 10px;
     font-size: 20px;
   }
-  /* line 4379, ../sass/screen.scss */
+  /* line 4383, ../sass/screen.scss */
   .footer .contacts li {
     float: none;
     margin-right: 0;
     padding-bottom: 45px;
   }
-  /* line 4385, ../sass/screen.scss */
+  /* line 4389, ../sass/screen.scss */
   .footer .social_icons {
     padding-top: 30px;
     display: flex;
     justify-content: space-around;
     border-top: 1px solid #fff;
   }
-  /* line 4390, ../sass/screen.scss */
+  /* line 4394, ../sass/screen.scss */
   .footer .social_icons li {
     margin-right: 0px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 4398, ../sass/screen.scss */
+  /* line 4402, ../sass/screen.scss */
   .head .scroll_hidden {
     display: none;
+  }
+  /* line 4406, ../sass/screen.scss */
+  .head nav .mob_burger {
+    position: fixed;
+  }
+  /* line 4410, ../sass/screen.scss */
+  .head .mob-nav {
+    position: fixed;
+    top: 0;
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  }
+  /* line 4417, ../sass/screen.scss */
+  .head .logo {
+    margin-top: 0;
   }
 }
